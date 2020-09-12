@@ -1,4 +1,4 @@
-
+/*Configurações basicas*/
 
 .conteudo{
     color: #777;
@@ -19,4 +19,18 @@ body , html{
     color: #777;
     height: 100%;
     border: 1px solid red;
+}
+
+/*Configuraçõs Parallax*/
+.caixa1, .caixa2{
+    border: 1px solid red;
+    height: 100%;
+}
+
+.caixa1{
+    background-image: url(../imgs/imagem1.jpg);
+}
+
+.caixa2{
+    background-image: url(../imgs/imagem2.jpg);
 }
